@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 license=('GPL')
 makedepends=('perl')
 depends=('perl' 'perl-yaml' 'perl-html-template' 'perl-json')
-source=('git://git.tizen.org/tools/build.git' 'destdir.patch')
+source=('git+https://git.tizen.org/cgit/tools/build.git#branch=release-20160615' 'destdir.patch')
 sha256sums=('SKIP' '7016fc7df0919d2ca76131593d7b42e69e5c9d2376e8f28ab9558d620a474159')
 
 build() {
