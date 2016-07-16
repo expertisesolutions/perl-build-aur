@@ -14,7 +14,7 @@ sha256sums=('SKIP' '7016fc7df0919d2ca76131593d7b42e69e5c9d2376e8f28ab9558d620a47
 
 build() {
   cd $srcdir/build
-  patch -p1 -i ../../destdir.patch
+  patch -p1 -i $srcdir/destdir.patch
 }
 
 package() {
