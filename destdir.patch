@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index 346a908..651c3c3 100644
+--- a/Makefile
++++ b/Makefile
+@@ -17,7 +17,6 @@ pkglibdir=$(libdir)/$(BUILD)
+ mandir=$(datadir)/man
+ man1dir=$(mandir)/man1
+ sysconfdir=/etc
+-DESTDIR=
+ 
+ all:
+ 
